@@ -1,0 +1,30 @@
+#titulo{
+    background-color: white;
+    position:static;
+    text-align: center;
+    
+
+}
+
+.produto {
+    
+    text-align: center;
+    text-shadow:4mm;
+
+}
+
+.modelo-corpo {
+    background-color: dimgrey;
+    
+    border: 10pt;
+    border-style: double;
+    border-color: black;
+
+
+}
+
+#descricao {
+    text-align: center;
+    color: white;
+ 
+}

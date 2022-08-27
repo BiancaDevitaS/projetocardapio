@@ -1,84 +1,113 @@
 <!DOCTYPE html>
-<HTML>
+    <HTML lang="pt-Br">
 
-<HEAD>
-    
-    
-    <TITLE>LOJA DE ESFIHA</TITLE>
+        <HEAD>
+            
+            <TITLE>LOJA DE ESFIHA - Cardapio</TITLE>
 
-<link rel="stylesheet" href="modelagem.css">
-</HEAD>
+           <link rel="stylesheet" href="modelagem.css">
+        </HEAD>
 
-<BODY class="modelo-corpo"  aling="center">
-    
+        <BODY>
+            
+                <!-- Marca d'agua inicial-->
+            <div class="marcadagua" >
+                <div class="container"> Seja bem-vindo!  </div>
+            </div>
+            
 
-<h1 id="titulo" >CARDÁPIO</h1>  
+             <!-- Botões de navegação-->
+            <div class="container">
+                <nav>    
+                    <a title="Volte para tela inicial" href="tela_inicial.html"> Home</a> | 
+                    <a title="Vai para tela de cardapio" href="Interface.HTML">Cardápio</a> | 
+                    <a title="Vai para tela de contato" href="tela_contato.html">Contato</a>
+                </nav>        
+            </div>
 
-<BR>
-
-<HR> 
-<div style="text-align:center">
-<H2>PRODUTOS</H2></div>
-<BR>
-
-<HR>
-
-<P>
-    <H3 class="produto">ESFIHA DE CARNE</H3>
-<BR>
-    
-<div id="descricao">
-     <IMG SRC="CARNE.jpg">
-
-<BR>
-INGREDIENTES: CARNE, CEBOLA E TOMATE.
-
-<BR>Valor: 1,99 (Unidade)
-</div>
-
-</P>
-
-<BR>
-
-<HR>
+            <!-- Imagem logo-->
+          
+                <div class="container">
+                    <img src="download.jpg"> </img>
+                </div>
 
 
-<P>
-    <H3 class="produto">ESFIHA DE QUEIJO</H3>
-
-    <BR>
-
-        <div id="descricao">
 
 
-         <IMG SRC="QUEIJO.jpg">
-
-<BR>
-INGREDIENTES: MUSSARELA E ORÉGANO.
-
-<BR>Valor: 2,99 (Unidade)
-        </div>
-</P>
-<BR>
-
-<HR>
+                <!--Começa o titulo-->
+            <section>
+                <p>
+                    <div class="titulo" >
+                        <div> CARDÁPIO </div>
+                     </div>
+                </p>
+            </section>
 
 
-<P>
-    <H3 class="produto">ESFIHA DE FRANGO</H3>
 
-    <BR>
+                <BR>
+                    <!-- Começa esfiha de carne-->
+                    <div class="container">
+                        <div class="produto">ESFIHA DE CARNE</div>
+                
+                        <BR>
 
-<div id="descricao">
-    <IMG SRC="FRANGO.jpg">
+                        <div class="descricao">INGREDIENTES: CARNE, CEBOLA E TOMATE.<BR>Valor: 1,99 (Unidade)</div>
+                    </div>
+                        <BR>
 
-<BR>
-INGREDIENTES: MUSSARELA, FRANGO E ORÉGANO.
+                    
+                            <div class="container">
+            
+                                <IMG SRC="CARNE.jpg">
+        
+                                
+                            </div>
+                <BR>
 
-<BR>Valor: 1,99 (Unidade)
-</div>
-</P>
-<BR>
 
-</BODY>
+                    <!-- Começa esfiha de queijo-->
+
+                    <section><p>
+                            <div class="container">
+                                <div class="produto">ESFIHA DE QUEIJO</div>
+        
+                            <BR>
+                                <div class="descricao">INGREDIENTES: MUSSARELA E ORÉGANO.<BR>Valor: 2,99 (Unidade)</div>
+                            </div>
+                                <div class="container">
+                                
+                                    <IMG SRC="QUEIJO.jpg">
+
+                               </div>
+
+                    </p></section>
+                <BR>
+
+
+
+                    <!-- Começa esfiha de frango-->
+                    <div class="container">
+                        <div class="produto">ESFIHA DE FRANGO</div>
+                    </div>
+
+                <BR>
+                    <div class="container">
+
+                        <IMG SRC="FRANGO.jpg">
+                    <div class="descricao">INGREDIENTES: MUSSARELA, FRANGO E ORÉGANO.<BR>Valor: 1,99 (Unidade)</div>
+                        </div>
+                        <BR>
+
+
+                        <BR>                            
+                    <!-- Botão faça seu pedido-->
+                <nav>
+                    <div class="container">
+                       <a class="btn_faca_pedido" href="tela_contato.html"> Faça seu pedido! </a>
+                    </div>
+                </nav>
+
+        </BODY>
+    </HTML>
 </HTML>
